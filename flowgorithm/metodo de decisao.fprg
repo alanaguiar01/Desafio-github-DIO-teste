@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="alan_"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-09 11:26:06 "/>
+        <attribute name="created" value="YWxhbl87REVTS1RPUC1JU1ZONjJROzIwMjEtMTEtMDk7IjExOjA1OjE0ICI7Mjc3OA=="/>
+        <attribute name="edited" value="YWxhbl87REVTS1RPUC1JU1ZONjJROzIwMjEtMTEtMDk7IjExOjI2OjA2ICI7MTsyODkw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cliente" type="String" array="False" size=""/>
+            <declare name="cartao" type="Boolean" array="False" size=""/>
+            <declare name="numero" type="String" array="False" size=""/>
+            <input variable="cliente"/>
+            <input variable="cartao"/>
+            <if expression="cartao">
+                <then>
+                    <output expression="numero" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;nao pode fazer a compra, apenas se tiver cartao&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
