@@ -1,0 +1,8 @@
+criar uma pasta para clonar o repositório;
+fazer um git bash na pasta criada;
+git clone ("link do repositório");
+git status;
+git add("." para todos os arquivos);
+git commit -m ("comentario de identificação");
+git push origin main;
+
